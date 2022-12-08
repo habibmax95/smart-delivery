@@ -16,8 +16,8 @@ protocol DeliveryDateFilterProtocol {
 
 struct DeliveryDateFilterService: DeliveryDateFilterProtocol {
     
-    let calendar = Calendar.current
-    let now = Date()
+    private let calendar = Calendar.current
+    private let now = Date()
     
     /// Filters delivery dates  based on how many days advance the product needs to be delivered
     /// - parameter numberOfDaysAdvance: how many days before the products needs to be delivered

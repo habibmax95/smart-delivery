@@ -9,11 +9,11 @@ import Foundation
 
 class DeliveryDateViewModel: ObservableObject {
     @Published var deliveryDates = [DeliveryDate]()
-    let deliveryDateResponse: DeliveryDateResponse = Bundle.main.decode("delivery_times.json", dateDecodingStrategy: .iso8601)
-    let now = Date()
+    private let deliveryDateResponse: DeliveryDateResponse = Bundle.main.decode("delivery_times.json", dateDecodingStrategy: .iso8601)
+    private let now = Date()
     let carts: [Product] = cartsData
-    var filterService = DeliveryDateFilterService()
-    let sortService = DeliveryDateSortService()
+    private var filterService = DeliveryDateFilterService()
+    private let sortService = DeliveryDateSortService()
     
     
     func filterDates() {
