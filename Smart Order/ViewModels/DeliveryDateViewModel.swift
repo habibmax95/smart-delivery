@@ -12,7 +12,7 @@ class DeliveryDateViewModel: ObservableObject {
     private let deliveryDateResponse: DeliveryDateResponse = Bundle.main.decode("delivery_times.json", dateDecodingStrategy: .iso8601)
     private let now = Date()
     let carts: [Product] = cartsData
-    private var filterService = DeliveryDateFilterService()
+    private let filterService = DeliveryDateFilterService()
     private let sortService = DeliveryDateSortService()
     
     
