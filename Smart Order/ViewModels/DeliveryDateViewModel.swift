@@ -27,7 +27,7 @@ class DeliveryDateViewModel: ObservableObject {
             
             // All external products need to be ordered 5 days in in advance
             if (product.productType == .external) {
-                filterService.filterBy(numberOfDaysAdvance: 5, filterableDates: &filteredDates)
+                filterService.filterBy(numberOfDaysAdvance: NumericConstants.externalDeliveryDaysInAdvance.rawValue, filterableDates: &filteredDates)
             }
             else {
                 // A delivery date is not valid if a product must be ordered more days in advance than possible

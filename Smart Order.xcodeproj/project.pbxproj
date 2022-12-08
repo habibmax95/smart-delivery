@@ -27,6 +27,7 @@
 		9651961829414A2A00D2A9A1 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961729414A2A00D2A9A1 /* Date+Extension.swift */; };
 		9651961B29417B9400D2A9A1 /* DeliveryDateFilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961A29417B9400D2A9A1 /* DeliveryDateFilterService.swift */; };
 		9651961D29417CC600D2A9A1 /* DeliveryDateSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961C29417CC600D2A9A1 /* DeliveryDateSortService.swift */; };
+		965196202941F35B00D2A9A1 /* NumericConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961F2941F35B00D2A9A1 /* NumericConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		9651961729414A2A00D2A9A1 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		9651961A29417B9400D2A9A1 /* DeliveryDateFilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDateFilterService.swift; sourceTree = "<group>"; };
 		9651961C29417CC600D2A9A1 /* DeliveryDateSortService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDateSortService.swift; sourceTree = "<group>"; };
+		9651961F2941F35B00D2A9A1 /* NumericConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		965195E629400AEF00D2A9A1 /* Smart Order */ = {
 			isa = PBXGroup;
 			children = (
+				9651961E2941F33400D2A9A1 /* Constants */,
 				9651961929417B1D00D2A9A1 /* Service */,
 				9651961229413C1700D2A9A1 /* ViewModels */,
 				9651960D29413AEB00D2A9A1 /* Views */,
@@ -169,6 +172,14 @@
 				9651961C29417CC600D2A9A1 /* DeliveryDateSortService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		9651961E2941F33400D2A9A1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9651961F2941F35B00D2A9A1 /* NumericConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 				965196072940AE8C00D2A9A1 /* WeekdayModel.swift in Sources */,
 				9651960329402E6D00D2A9A1 /* ProductModel.swift in Sources */,
 				965195FA2940111500D2A9A1 /* DeliveryDateModel.swift in Sources */,
+				965196202941F35B00D2A9A1 /* NumericConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
