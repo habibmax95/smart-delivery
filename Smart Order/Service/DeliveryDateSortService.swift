@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct DeliveryDateSortService {
+protocol DeliveryDateSortProtocol {
+    func sortDates(now: Date, deliveryDates: inout [DeliveryDate])
+}
+
+struct DeliveryDateSortService: DeliveryDateSortProtocol {
     
     /// Sort delivery dates based on two criteria
     /// 1. green delivery dates shoudl be at the top of the list if they are within the next 3 days

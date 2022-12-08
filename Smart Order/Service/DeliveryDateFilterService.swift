@@ -7,7 +7,14 @@
 
 import Foundation
 
-struct DeliveryDateFilterService {
+protocol DeliveryDateFilterProtocol {
+    func filterBy(numberOfDaysAdvance: Int, filterableDates: inout [DeliveryDate])
+    func filterBy(productDeliveryDays: [Weekday], filterableDates: inout [DeliveryDate])
+    func filterByCurrentWeekdays(filterableDates: inout [DeliveryDate])
+    
+}
+
+struct DeliveryDateFilterService: DeliveryDateFilterProtocol {
     
     let calendar = Calendar.current
     let now = Date()
