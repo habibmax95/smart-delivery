@@ -22,12 +22,16 @@ struct DeliveryDateSortService: DeliveryDateSortProtocol {
         deliveryDates = deliveryDates.sorted(by: {
             let gdMaxDate = now.addDays(daysToAdd: 3)
             // green delivery dates shoudl be at the top of the list if they are within the next 3 days
+            
+            // if both of them is green delivery, sort by date btween them
             if $0.isGreenDelivery && $0.deliveryDate.isBetween(now, and: gdMaxDate){
                 if $1.isGreenDelivery && $1.deliveryDate.isBetween(now, and: gdMaxDate) {
                     return $0.deliveryDate < $1.deliveryDate
                 } else {
                     return true
                 }
+            } else if $1.isGreenDelivery && $1.deliveryDate.isBetween(now, and: gdMaxDate) { // $0 -> not green || $1 -> green, so needs to be switched
+                return false
             }
             
             // otherwise dates should just be sorted ascending
