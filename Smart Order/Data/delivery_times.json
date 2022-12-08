@@ -27,8 +27,8 @@
             "isGreenDelivery": true
         },
         {
-            "deliveryDate": "2022-12-09T00:00:00+01:00",
-            "isGreenDelivery": true
+            "deliveryDate": "2022-12-10T00:00:00+01:00",
+            "isGreenDelivery": false
         },
         {
             "deliveryDate": "2022-12-21T00:00:00+01:00",
