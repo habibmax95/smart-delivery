@@ -20,8 +20,6 @@ struct DeliveryDateSortService: DeliveryDateSortProtocol {
     /// - parameter deliveryDates: A list of DeliveryDate
     func sortDates(now: Date, deliveryDates: inout [DeliveryDate]) {
         deliveryDates = deliveryDates.sorted(by: {
-            let gdMaxDate = now.addDays(daysToAdd: 3)
-            
             // $0 -> green || $1 -> not green, so no needs to be switched
             if isValidGreenDelivery(now: now, deliveryDate: $0) && !isValidGreenDelivery(now: now, deliveryDate: $1){
                 return true
