@@ -13,7 +13,7 @@ extension Date {
     /// - parameter date2: End date of the range
     /// - returns: if the current date falls between given dates range
     func isBetween(_ date1: Date, and date2: Date) -> Bool {
-        return (min(date1, date2) ... max(date1, date2)).contains(self)
+        return (date1 ... date2).contains(self) // date1 ... date2: returns a closed range that contains both of its bounds.
     }
     
     /// Returns a date by adding days to it
