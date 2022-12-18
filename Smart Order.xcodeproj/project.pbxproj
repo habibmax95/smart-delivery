@@ -28,7 +28,39 @@
 		9651961B29417B9400D2A9A1 /* DeliveryDateFilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961A29417B9400D2A9A1 /* DeliveryDateFilterService.swift */; };
 		9651961D29417CC600D2A9A1 /* DeliveryDateSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961C29417CC600D2A9A1 /* DeliveryDateSortService.swift */; };
 		965196202941F35B00D2A9A1 /* NumericConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961F2941F35B00D2A9A1 /* NumericConstants.swift */; };
+		96BC4E6E294E9D6F00F69299 /* DeliveryDateSorterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC4E6D294E9D6F00F69299 /* DeliveryDateSorterTests.swift */; };
+		96BC4E6F294EA11300F69299 /* DeliveryDateSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961C29417CC600D2A9A1 /* DeliveryDateSortService.swift */; };
+		96BC4E78294EA5FB00F69299 /* delivery_times_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 96BC4E76294EA5FB00F69299 /* delivery_times_test.json */; };
+		96BC4E79294EA5FB00F69299 /* delivery_times_expected.json in Resources */ = {isa = PBXBuildFile; fileRef = 96BC4E77294EA5FB00F69299 /* delivery_times_expected.json */; };
+		96BC4E7A294EA63100F69299 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96519600294012FE00D2A9A1 /* Bundle+Extension.swift */; };
+		96BC4E7B294EA74900F69299 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961729414A2A00D2A9A1 /* Date+Extension.swift */; };
+		96BC4E7C294EA81C00F69299 /* WeekdayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965196062940AE8C00D2A9A1 /* WeekdayModel.swift */; };
+		96BC4E7D294EA84600F69299 /* DeliveryDateFilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961A29417B9400D2A9A1 /* DeliveryDateFilterService.swift */; };
+		96BC4E7E294EA84600F69299 /* DeliveryDateScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961029413C0700D2A9A1 /* DeliveryDateScreenView.swift */; };
+		96BC4E7F294EA84600F69299 /* CartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965196082940B26D00D2A9A1 /* CartData.swift */; };
+		96BC4E80294EA84600F69299 /* Calender+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651960A2940BD0000D2A9A1 /* Calender+Extension.swift */; };
+		96BC4E81294EA84600F69299 /* DeliveryDateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961529413C8800D2A9A1 /* DeliveryDateViewModel.swift */; };
+		96BC4E82294EA84600F69299 /* DeliveryDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965195F92940111500D2A9A1 /* DeliveryDateModel.swift */; };
+		96BC4E83294EA84600F69299 /* DeliveryDateResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965195FB294011B700D2A9A1 /* DeliveryDateResponseModel.swift */; };
+		96BC4E84294EA84600F69299 /* delivery_times.json in Resources */ = {isa = PBXBuildFile; fileRef = 965195F62940108000D2A9A1 /* delivery_times.json */; };
+		96BC4E85294EA84600F69299 /* ProductTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651960429402ED400D2A9A1 /* ProductTypeModel.swift */; };
+		96BC4E86294EA84600F69299 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651960229402E6D00D2A9A1 /* ProductModel.swift */; };
+		96BC4E87294EA84600F69299 /* DeliveryDateDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965195FD2940129D00D2A9A1 /* DeliveryDateDataModel.swift */; };
+		96BC4E88294EA84600F69299 /* NumericConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651961F2941F35B00D2A9A1 /* NumericConstants.swift */; };
+		96BC4E89294EA84600F69299 /* DeliveryDateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651960E29413B2B00D2A9A1 /* DeliveryDateItemView.swift */; };
+		96BC4E8A294EAA7400F69299 /* delivery_times_expected.json in Resources */ = {isa = PBXBuildFile; fileRef = 96BC4E77294EA5FB00F69299 /* delivery_times_expected.json */; };
+		96BC4E8B294EAA7700F69299 /* delivery_times_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 96BC4E76294EA5FB00F69299 /* delivery_times_test.json */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96BC4E68294E9B0300F69299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 965195DC29400AEF00D2A9A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965195E329400AEF00D2A9A1;
+			remoteInfo = "Smart Order";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		965195E429400AEF00D2A9A1 /* Smart Order.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Order.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,10 +85,21 @@
 		9651961A29417B9400D2A9A1 /* DeliveryDateFilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDateFilterService.swift; sourceTree = "<group>"; };
 		9651961C29417CC600D2A9A1 /* DeliveryDateSortService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDateSortService.swift; sourceTree = "<group>"; };
 		9651961F2941F35B00D2A9A1 /* NumericConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericConstants.swift; sourceTree = "<group>"; };
+		96BC4E64294E9B0200F69299 /* Smart OrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart OrderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BC4E6D294E9D6F00F69299 /* DeliveryDateSorterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDateSorterTests.swift; sourceTree = "<group>"; };
+		96BC4E76294EA5FB00F69299 /* delivery_times_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = delivery_times_test.json; sourceTree = "<group>"; };
+		96BC4E77294EA5FB00F69299 /* delivery_times_expected.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = delivery_times_expected.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		965195E129400AEF00D2A9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC4E61294E9B0200F69299 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				965195E629400AEF00D2A9A1 /* Smart Order */,
+				96BC4E65294E9B0300F69299 /* Smart OrderTests */,
 				965195E529400AEF00D2A9A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				965195E429400AEF00D2A9A1 /* Smart Order.app */,
+				96BC4E64294E9B0200F69299 /* Smart OrderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,6 +227,16 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		96BC4E65294E9B0300F69299 /* Smart OrderTests */ = {
+			isa = PBXGroup;
+			children = (
+				96BC4E77294EA5FB00F69299 /* delivery_times_expected.json */,
+				96BC4E76294EA5FB00F69299 /* delivery_times_test.json */,
+				96BC4E6D294E9D6F00F69299 /* DeliveryDateSorterTests.swift */,
+			);
+			path = "Smart OrderTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,6 +257,24 @@
 			productReference = 965195E429400AEF00D2A9A1 /* Smart Order.app */;
 			productType = "com.apple.product-type.application";
 		};
+		96BC4E63294E9B0200F69299 /* Smart OrderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BC4E6C294E9B0300F69299 /* Build configuration list for PBXNativeTarget "Smart OrderTests" */;
+			buildPhases = (
+				96BC4E60294E9B0200F69299 /* Sources */,
+				96BC4E61294E9B0200F69299 /* Frameworks */,
+				96BC4E62294E9B0200F69299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BC4E69294E9B0300F69299 /* PBXTargetDependency */,
+			);
+			name = "Smart OrderTests";
+			productName = "Smart OrderTests";
+			productReference = 96BC4E64294E9B0200F69299 /* Smart OrderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,11 +282,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1410;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					965195E329400AEF00D2A9A1 = {
 						CreatedOnToolsVersion = 14.1;
+					};
+					96BC4E63294E9B0200F69299 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 965195E329400AEF00D2A9A1;
 					};
 				};
 			};
@@ -231,6 +308,7 @@
 			projectRoot = "";
 			targets = (
 				965195E329400AEF00D2A9A1 /* Smart Order */,
+				96BC4E63294E9B0200F69299 /* Smart OrderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,9 +318,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BC4E8B294EAA7700F69299 /* delivery_times_test.json in Resources */,
 				965195EF29400AF200D2A9A1 /* Preview Assets.xcassets in Resources */,
 				965195EC29400AF200D2A9A1 /* Assets.xcassets in Resources */,
+				96BC4E8A294EAA7400F69299 /* delivery_times_expected.json in Resources */,
 				965195F72940108000D2A9A1 /* delivery_times.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC4E62294E9B0200F69299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC4E79294EA5FB00F69299 /* delivery_times_expected.json in Resources */,
+				96BC4E78294EA5FB00F69299 /* delivery_times_test.json in Resources */,
+				96BC4E84294EA84600F69299 /* delivery_times.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +364,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		96BC4E60294E9B0200F69299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC4E7D294EA84600F69299 /* DeliveryDateFilterService.swift in Sources */,
+				96BC4E80294EA84600F69299 /* Calender+Extension.swift in Sources */,
+				96BC4E7C294EA81C00F69299 /* WeekdayModel.swift in Sources */,
+				96BC4E87294EA84600F69299 /* DeliveryDateDataModel.swift in Sources */,
+				96BC4E7B294EA74900F69299 /* Date+Extension.swift in Sources */,
+				96BC4E86294EA84600F69299 /* ProductModel.swift in Sources */,
+				96BC4E6E294E9D6F00F69299 /* DeliveryDateSorterTests.swift in Sources */,
+				96BC4E85294EA84600F69299 /* ProductTypeModel.swift in Sources */,
+				96BC4E82294EA84600F69299 /* DeliveryDateModel.swift in Sources */,
+				96BC4E7E294EA84600F69299 /* DeliveryDateScreenView.swift in Sources */,
+				96BC4E81294EA84600F69299 /* DeliveryDateViewModel.swift in Sources */,
+				96BC4E83294EA84600F69299 /* DeliveryDateResponseModel.swift in Sources */,
+				96BC4E7F294EA84600F69299 /* CartData.swift in Sources */,
+				96BC4E6F294EA11300F69299 /* DeliveryDateSortService.swift in Sources */,
+				96BC4E7A294EA63100F69299 /* Bundle+Extension.swift in Sources */,
+				96BC4E88294EA84600F69299 /* NumericConstants.swift in Sources */,
+				96BC4E89294EA84600F69299 /* DeliveryDateItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96BC4E69294E9B0300F69299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 965195E329400AEF00D2A9A1 /* Smart Order */;
+			targetProxy = 96BC4E68294E9B0300F69299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		965195F029400AF200D2A9A1 /* Debug */ = {
@@ -449,6 +571,44 @@
 			};
 			name = Release;
 		};
+		96BC4E6A294E9B0300F69299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DHLQ6MC37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Smart-OrderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Order.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Order";
+			};
+			name = Debug;
+		};
+		96BC4E6B294E9B0300F69299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DHLQ6MC37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Smart-OrderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Order.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Order";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -466,6 +626,15 @@
 			buildConfigurations = (
 				965195F329400AF200D2A9A1 /* Debug */,
 				965195F429400AF200D2A9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BC4E6C294E9B0300F69299 /* Build configuration list for PBXNativeTarget "Smart OrderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BC4E6A294E9B0300F69299 /* Debug */,
+				96BC4E6B294E9B0300F69299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

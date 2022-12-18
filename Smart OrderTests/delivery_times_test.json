@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "data": {
+    "deliveryDates": [
+        {
+            "deliveryDate": "2022-12-13T00:00:00+01:00",
+            "isGreenDelivery": false
+        },
+        {
+            "deliveryDate": "2022-12-15T00:00:00+01:00",
+            "isGreenDelivery": false
+        },
+        {
+            "deliveryDate": "2022-12-14T00:00:00+01:00",
+            "isGreenDelivery": true
+        },
+        {
+            "deliveryDate": "2022-12-16T00:00:00+01:00",
+            "isGreenDelivery": true
+        }
+    ]
+  }
+}
