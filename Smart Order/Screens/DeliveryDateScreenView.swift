@@ -16,11 +16,13 @@ struct DeliveryDateScreenView: View {
             if viewModel.deliveryDates.count == 0 {
                 Text("No delivery dates available")
             } else {
-                ForEach(viewModel.deliveryDates, id: \.self) { dateItem in
-                    DeliveryDateItemView(deliveryDate: dateItem)
-                }
+                List {
+                    ForEach(viewModel.deliveryDates, id: \.self) { dateItem in
+                        DeliveryDateItemView(deliveryDate: dateItem)
+                    }
+                } //: List
             }
-        }
+        } //: VStack
         .onAppear {
             viewModel.filterDates()
         }
