@@ -39,8 +39,7 @@ struct DeliveryDateFilterService: DeliveryDateFilterProtocol {
     /// Filters delivery dates  based on current week's weekdays (mon - sun)
     /// 
     func filterByCurrentWeekdays(filterableDates: inout [DeliveryDate]) {
-        let nextSunday = calendar.nextMonday(weekday: Weekday.monday.rawValue, after: now)
-            .addDays(daysToAdd: -1)
+        let nextSunday = calendar.nextWeekday(weekday: Weekday.sunday.rawValue, after: now)
         filterableDates.removeAll(where: {
             let deliveryDate = $0.deliveryDate
             return !deliveryDate.isBetween(now, and: nextSunday)

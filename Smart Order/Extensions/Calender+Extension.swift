@@ -20,11 +20,11 @@ extension Calendar {
         return numberOfDays.day!
     }
     
-    /// Returns next date of Monday from a particular weekday date
-    /// - parameter weekday: Starting day of the week
+    /// Returns next date of a weekday  from a particular weekday date
+    /// - parameter weekday: Next weekday
     /// - parameter after: The date after
-    /// - returns: Returns next date of Monday from the  specified date
-    func nextMonday(weekday: Int, after: Date) -> Date {
+    /// - returns: Returns next date of specified weekday from the  specified date
+    func nextWeekday(weekday: Int, after: Date) -> Date {
         var comps = DateComponents()
         comps.weekday = weekday
         let nextMonday = self.nextDate(after: after, matching: comps, matchingPolicy: .nextTimePreservingSmallerComponents)!
